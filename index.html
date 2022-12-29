@@ -1,0 +1,42 @@
+
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENTRADAS YSYSMO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  
+  <body>
+  
+    <header>
+      <h1>ENTRADAS YSYSMO</h1>
+      <button id="cesta-carrito"><i class="fas fa-shopping-cart" aria-hidden="true"></i><span id="contador-carrito">0</span></button>
+    </header>
+  
+    <main id="entrada-container">
+  
+    </main>
+  
+    <div class="modal-container">
+      <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="btn-cerrar-carrito"><i class="fas fa-times-circle" aria-hidden="true"></i></button>
+        <div id="carrito-container">
+          
+        </div>
+        <p class="precioEntrada">Precio total: $<span id="precioTotal"></span></p>
+      </div>
+    </div>
+  
+    <script src="./stock.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./cart.js"></script>
+    <script src="./app.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face">
